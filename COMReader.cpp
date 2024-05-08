@@ -39,7 +39,7 @@ int main(int argv, char** argc)
 
     if (2 != argv)
     {
-        std::cout << "Use: COMReader CLSID del OCX" << std::endl;
+        std::cout << "Use: COMReader.exe ProgID" << std::endl;
         return 1;
     }
 
